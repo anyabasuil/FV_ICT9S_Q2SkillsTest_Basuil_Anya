@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OBMC Enroll Now</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            background-image: linear-gradient(rgba(243, 245, 248, 0.12), rgba(243, 245, 248, 0.12)),
+                              url('https://plain-apac-prod-public.komododecks.com/202611/05/opR5djMWjV1j9JW9S0jY/image.png');
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #f3f5f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+
+        .navbar-brand {
+            color: #17365d;
+            font-weight: bold;
+        }
+
+        .title {
+            color: #17365d;
+            font-weight: bold;
+        }
+
+        .gold {
+            color: #b68a2a;
+            font-weight: 600;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .content-section {
+            background-color: transparent;
+            padding: 2.5rem 1rem !important;
+        }
+
+        .content-section > .container {
+            padding: clamp(1.25rem, 3vw, 2.5rem);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(23, 54, 93, 0.08);
+            border-radius: 1rem;
+            box-shadow: 0 0.25rem 1rem rgba(23, 54, 93, 0.12);
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.96);
+        }
+
+        .hero {
+            padding: clamp(3rem, 8vw, 6rem) 1rem;
+            background-color: rgba(170, 220, 255, 0.751);
+            text-align: center;
+        }
+
+        .hero-caption {
+            width: min(90%, 800px);
+            margin: 0 auto;
+            color: #17365d;
+        }
+
+        .hero-caption h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: bold;
+        }
+
+
+        .enroll-panel {
+            background-color: rgba(255, 255, 255, 0.96);
+            border: 1px solid rgba(23, 54, 93, 0.08);
+        }
+
+        .upload-box {
+            border: 2px dashed #b8c3d1;
+            background-color: #eaf4fd;
+        }
+
+        footer {
+            text-decoration: none;
+            max-width: 100%;
+            margin-top: auto;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-inner {
+            max-width: 2000px;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="home">
+
+        <nav class="navbar navbar-light bg-white shadow-sm sticky-top">
+
+            <div class="container d-flex flex-wrap justify-content-between">
+
+                <a class="navbar-brand d-flex align-items-center gap-2 fs-5" href="#home">
+
+                    <img src="https://findschools.ph/wp-content/uploads/2026/03/OBMCLOGO2024-04-1.webp"
+                        alt="O.B. Montessori Center Logo"
+                        style="width: 65px; height: 65px;">
+
+                    <span>O.B. MONTESSORI CENTER</span>
+
+                </a>
+
+                <ul class="navbar-nav flex-row flex-wrap justify-content-center gap-2 ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link px-2" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-2" href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-2" href="#requirements">Requirements</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-2" href="#enroll">Enrollment</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-primary rounded-1 px-3" href="https://obmontessori.orangeapps.ph/" target="_blank">
+                            School Portal
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="hero">
+            <div class="hero-caption">
+                <h1>ENROLL NOW!</h1>
+                <p>
+                    OBMC celebrates 60 years of operations in the Philippines as a progressive, 
+                    co-educational school offering Pre-K to Grade 12—an enriching alternative to international schools.  
+
+                </p>
+                <a href="https://anyabasuil.github.io/FV_ICT9S_Q2Drill2_Basuil_Anya/" class="btn btn-warning px-4">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="py-5 content-section">
+
+            <div class="container">
+
+                <div class="row align-items-center g-4">
+
+                    <div class="col-md-6">
+
+                        <h2 class="title mb-3">
+                            About Our School
+                        </h2>
+
+                        <p class="text-secondary">
+                            O.B. Montessori Center is a progressive
+                            co-educational school in the Philippines
+                            that follows the educational philosophy
+                            of Dr. Maria Montessori.
+                        </p>
+
+                        <p class="text-secondary">
+                            The school aims to develop independent,
+                            responsible, and productive individuals.
+                            Students are encouraged to explore their
+                            interests, develop their abilities, and
+                            become lifelong learners.
+                        </p>
+
+                        <p class="gold">
+                            A Diamond Legacy of Learning.
+                        </p>
+
+                        <a href="https://obmontessori.edu.ph/"
+                            target="_blank"
+                            class="btn btn-primary px-4">
+                            Official Website
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/bd21fe51-4035-4581-af3d-8e5ad73c641e/RAF09633.JPG"
+                            class="img-fluid rounded-3 shadow-sm"
+                            alt="OBMC learning environment">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="requirements" class="py-5 content-section">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2 class="title">
+                        Enrollment Requirements
+                    </h2>
+
+                    <p class="text-secondary">
+                        Prepare the following documents before
+                        proceeding with your enrollment.
+                    </p>
+
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+
+                        <div class="card h-100 border-0 shadow-sm">
+
+                            <div class="card-body p-4">
+
+                                <h5 class="card-title title mb-3">
+                                    Student Requirements
+                                </h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item px-0">
+                                        Completed application form
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Copy of birth certificate
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Previous school records
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Recent student photograph
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Report card or academic records
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="card h-100 border-0 shadow-sm">
+
+                            <div class="card-body p-4">
+
+                                <h5 class="card-title title mb-3">
+                                    Parent / Guardian Requirements
+                                </h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item px-0">
+                                        Parent or guardian information
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Valid contact number
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Active email address
+                                    </li>
+
+                                    <li class="list-group-item px-0">
+                                        Additional documents requested by the school
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="enroll" class="py-5 content-section">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2 class="title">
+                        ENROLL NOW
+                    </h2>
+
+                    <p class="text-secondary">
+                        Take the first step toward a brighter future.
+                        Fill out the form below to express your
+                        interest in enrolling at OBMC.
+                    </p>
+
+                </div>
+
+                <div class="row g-4 align-items-stretch">
+
+                    <div class="col-lg-7">
+
+                        <div class="enroll-panel rounded-3 shadow-sm p-4 p-md-5 h-100">
+
+                            <h4 class="title mb-4">
+                                Student Application Form
+                            </h4>
+
+                            <form action="#" method="post" enctype="multipart/form-data">
+
+                                <h5 class="gold mb-3">
+                                    Student Information
+                                </h5>
+
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+
+                                        <label for="firstname" class="form-label">
+                                            First Name
+                                        </label>
+
+                                        <input type="text" class="form-control"
+                                            id="firstname" name="firstname"
+                                            placeholder="Enter first name" required>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <label for="lastname" class="form-label">
+                                            Last Name
+                                        </label>
+
+                                        <input type="text" class="form-control"
+                                            id="lastname" name="lastname"
+                                            placeholder="Enter last name" required>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <label for="birthdate" class="form-label">
+                                            Date of Birth
+                                        </label>
+
+                                        <input type="date" class="form-control"
+                                            id="birthdate" name="birthdate" required>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <label for="grade" class="form-label">
+                                            Grade Level
+                                        </label>
+
+                                        <select class="form-select" id="grade"
+                                            name="grade" required>
+
+                                            <option value="" selected disabled>
+                                                Select grade level
+                                            </option>
+
+                                            <option>Nursery</option>
+                                            <option>Casa</option>
+                                            <option>Grade 1</option>
+                                            <option>Grade 2</option>
+                                            <option>Grade 3</option>
+                                            <option>Grade 4</option>
+                                            <option>Grade 5</option>
+                                            <option>Grade 6</option>
+                                            <option>Grade 7</option>
+                                            <option>Grade 8</option>
+                                            <option>Grade 9</option>
+                                            <option>Grade 10</option>
+
+                                        </select>
+
+                                    </div>
+
+                                    <div class="col-12">
+
+                                        <label for="campus" class="form-label">
+                                            Preferred Campus
+                                        </label>
+
+                                        <select class="form-select" id="campus"
+                                            name="campus" required>
+
+                                            <option value="" selected disabled>
+                                                Choose your campus
+                                            </option>
+
+                                            <option>Angeles</option>
+                                            <option>Fairview</option>
+                                            <option>Greenhills</option>
+                                            <option>Las Piñas</option>
+                                            <option>Sta. Ana</option>
+
+                                        </select>
+
+                                    </div>
+
+                                </div>
+
+                                <hr class="my-4">
+
+                                <h5 class="gold mb-3">
+                                    Parent / Guardian Information
+                                </h5>
+
+                                <div class="row g-3">
+
+                                    <div class="col-12">
+
+                                        <label for="parent" class="form-label">
+                                            Parent / Guardian Name
+                                        </label>
+
+                                        <input type="text" class="form-control"
+                                            id="parent" name="parent"
+                                            placeholder="Enter full name" required>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <label for="email" class="form-label">
+                                            Email Address
+                                        </label>
+
+                                        <input type="email" class="form-control"
+                                            id="email" name="email"
+                                            placeholder="you@example.com" required>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <label for="phone" class="form-label">
+                                            Contact Number
+                                        </label>
+
+                                        <input type="tel" class="form-control"
+                                            id="phone" name="phone"
+                                            placeholder="09XXXXXXXXX" required>
+
+                                    </div>
+
+                                </div>
+
+                                <hr class="my-4">
+
+                                <h5 class="gold mb-3">
+                                    Required Documents
+                                </h5>
+
+                                <p class="text-secondary small">
+                                    Upload the necessary documents in the spaces below.
+                                </p>
+
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+
+                                        <div class="upload-box rounded-3 p-3 h-100">
+
+                                            <label for="birth-certificate" class="form-label">
+                                                Birth Certificate
+                                            </label>
+
+                                            <input type="file" class="form-control"
+                                                id="birth-certificate"
+                                                name="birth-certificate"
+                                                accept=".pdf,.jpg,.jpeg,.png">
+
+                                            <div class="form-text">
+                                                PDF, JPG, or PNG
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <div class="upload-box rounded-3 p-3 h-100">
+
+                                            <label for="report-card" class="form-label">
+                                                Report Card
+                                            </label>
+
+                                            <input type="file" class="form-control"
+                                                id="report-card"
+                                                name="report-card"
+                                                accept=".pdf,.jpg,.jpeg,.png">
+
+                                            <div class="form-text">
+                                                PDF, JPG, or PNG
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12">
+
+                                        <label for="message" class="form-label">
+                                            Additional Information
+                                        </label>
+
+                                        <textarea class="form-control"
+                                            id="message" name="message"
+                                            rows="3"
+                                            placeholder="Enter any additional information"></textarea>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="form-check mt-4">
+
+                                    <input class="form-check-input"
+                                        type="checkbox" value=""
+                                        id="agreement" required>
+
+                                    <label class="form-check-label text-secondary"
+                                        for="agreement">
+                                        I confirm that the information provided is correct.
+                                    </label>
+
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-2 mt-4">
+
+                                    <button type="submit" class="btn btn-primary px-4">
+                                        SUBMIT APPLICATION
+                                    </button>
+
+                                    <button type="reset" class="btn btn-outline-secondary px-4">
+                                        CLEAR FORM
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+
+                        <div class="card border-0 shadow-sm h-100 overflow-hidden">
+
+                            <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/a23158c8-e745-46c5-9df6-a590c69c9c58/OBMC+-+60TH+LOGO+-+DIAMOND+SLOGAN+-+APPROVED+-+2026+FA_OBMC+-+COLOR+VERTICAL.png"
+                                class="card-img-top img-fluid"
+                                alt="OBMC">
+
+                            <div class="card-body p-4">
+
+                                <h4 class="title">
+                                    Begin Your OBMC Journey
+                                </h4>
+
+                                <p class="text-secondary">
+                                    Become part of a learning community that
+                                    values independence, responsibility,
+                                    and personal growth.
+                                </p>
+
+                                <a href="https://obmontessori.orangeapps.ph/"
+                                    target="_blank"
+                                    class="btn btn-warning px-4">
+                                    School Portal
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="py-5 content-section">
+
+            <div class="container text-center">
+
+                <h2 class="title mb-3">
+                    Have More Questions?
+                </h2>
+
+                <p class="text-secondary">
+                    Visit the official OBMC website for more information
+                    about enrollment and school programs.
+                </p>
+
+                <a href="https://obmontessori.edu.ph/"
+                    target="_blank"
+                    class="btn btn-primary px-4">
+                    Visit Official Website
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contact" class="bg-dark text-white pt-5 pb-3">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-5">
+
+                    <h5 class="text-warning">
+                        O.B. MONTESSORI CENTER
+                    </h5>
+
+                    <p class="text-white-50">
+                        A Diamond Legacy of Learning.
+                        Developing independent, responsible,
+                        and productive individuals.
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5 class="text-warning">
+                        Quick Links
+                    </h5>
+
+                    <ul class="list-unstyled">
+
+                        <li class="mb-2">
+                            <a href="#home" class="text-white-50">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#about" class="text-white-50">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#requirements" class="text-white-50">
+                                Requirements
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#enroll" class="text-white-50">
+                                Enrollment
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <h5 class="text-warning">
+                        Contact Information
+                    </h5>
+
+                    <p class="text-white-50">
+                        Phone: +63 2 8722 9720 to 26
+                    </p>
+
+                    <p class="text-white-50">
+                        Email: info@obmontessori.edu.ph
+                    </p>
+
+                    <a href="https://obmontessori.edu.ph/"
+                        target="_blank"
+                        class="text-white">
+                        Official Website
+                    </a>
+
+                </div>
+
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="text-center text-white-50 small">
+
+                <p class="mb-1">
+                    © 2026 O.B. Montessori Center.
+                    All Rights Reserved.
+                </p>
+
+                <p class="mb-0">
+                    Anya H. Basuil 9-Sapphire
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
+<!---References:
+Contributors, M. O. J. T. a. B. (n.d.-b). Input group. https://getbootstrap.com/docs/5.3/forms/input-group/
+O.B. Montessori Center. (n.d.). O.B. Montessori Center. 
+    https://obmontessori.edu.ph/
+    NO AI USED.
